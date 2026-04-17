@@ -20,7 +20,8 @@
   <div class="max-w-4xl mx-auto bg-gray-50 shadow-lg grid grid-cols-10 w-[210mm] h-[297mm]">
 
     <!-- LEFT SIDEBAR -->
-    <aside class="col-span-4 text-white px-6 py-4 shadow-inner shadow-gray-950 bg-gradient-to-br from-blue-950 to-blue-900">
+    <aside
+      class="col-span-4 text-white px-4 py-2 shadow-inner shadow-gray-950 bg-gradient-to-br from-blue-950 to-blue-900">
       <!-- Profile Picture and Name -->
       <img src="src/img/profile.png" alt="Profile Picture"
         class="w-32 h-32 rounded-full object-cover mt-2 border-gray-200 border-3 mb-4 mx-auto" />
@@ -72,11 +73,11 @@
           <li>Lenguajes de Programación: </li>
           <li>JavaScript (ES6+) / TypeScript / HTML5 / CSS3 / Python </li>
           <li>Frontend:</li>
-          <li> React con Redux ♡ / Angular </li>
+          <li> React con Redux / Angular </li>
           <li>Herramientas:</li>
-          <li>Git / Webpack / Github Copilot / Vite / npm / Jest / SASS / Tailwind </li>
+          <li>Git / Webpack / GitHub Copilot / Vite / npm / Jest / SASS / Tailwind / Docker</li>
           <li>Prácticas:</li>
-          <li>Diseño Responsivo / Optimización del Pendimiento/ Accesibilidad </li>
+          <li>Diseño Responsivo / Optimización del Rendimiento/ Accesibilidad </li>
         </ul>
       </section>
 
@@ -117,22 +118,45 @@
     </aside>
 
     <!-- RIGHT CONTENT -->
-    <main class="col-span-6 p-6">
+    <main class="col-span-6 px-4 py-2 ">
 
       <!-- Profile -->
       <section>
-        <h2 class="text-xl font-bold border-b pb-1">Perfil</h2>
-        <p class="mt-4 text-[0.875rem] leading-relaxed text-gray-700">
-          Desarrollador Frontend con más de siete años de experiencia,
-          especializado en la creación de interfaces modernas y eficientes.
-          Proactivo en el aprendizaje continuo, con sólida experiencia en metodologías ágiles y
-          un fuerte interés en tecnologías de código abierto.
+        <h2 class="text-lg font-bold border-b pb-1">
+          Perfil
+        </h2>
+        <p class="mt-4 text-sm leading-relaxed text-gray-700">
+          Desarrollador Frontend Senior con +7 años de experiencia trabajando en aplicaciones a gran escala, incluyendo
+          plataformas OTT para Smart TV. Especializado en React y arquitectura frontend escalable, con enfoque en
+          rendimiento, calidad de código y optimización de builds.
         </p>
       </section>
 
       <!-- Experience -->
       <section class="mt-4">
-        <h2 class="text-xl font-bold border-b pb-1">Experiencia</h2>
+        <h2 class="text-lg font-bold border-b pb-1">
+          Experiencia
+        </h2>
+
+        <div class="mt-4">
+          <div class="flex justify-between">
+            <h3 class="font-semibold text-sm">
+              Año sabático de desarrollo personal y profesional
+            </h3>
+            <span class="text-sm text-gray-500">Dic 2024 - Ene 2025</span>
+          </div>
+          <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
+            <li>
+              Completé 4 cursos en tecnologías frontend modernas: GitHub Copilot, Tailwind CSS, TypeScript y React avanzado.
+            </li>
+            <li>
+              Desarrollé proyectos personales aplicando buenas prácticas de arquitectura en frontend.
+            </li>
+            <li>
+              Fortalecí habilidades de autogestión, aprendizaje autónomo e inteligencia emocional.
+            </li>
+          </ul>
+        </div>
 
         <div class="mt-4">
           <div class="flex justify-between">
@@ -143,35 +167,27 @@
           <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
             <!-- (Achievement or responsibility with impact.) -->
             <li>
-              Mantuve una aplicación de Smart TV a gran escala (Beacon) durante 4 años, incorporando nuevas funciones y
-              garantizando la estabilidad y el rendimiento a largo plazo.
+              Implementé funcionalidades y optimicé el proceso de build en la plataforma OTT Beacon, reduciendo en un 20% el tamaño del bundle y mejorando los tiempos de compilación de 20 a <5 minutos.
             </li>
             <li>
-              Optimicé el proceso de compilación de la aplicación mencionada utilizando Webpack, lo que redujo los tiempos de
-              compilación y disminuyó el tamaño del paquete en un 20 %, mejorando así la eficiencia de la implementación.
+              Lideré el desarrollo de nuevas funcionalidades en React, Redux, React Router y Hooks personalizados,
+              impulsando una arquitectura escalable.
             </li>
             <li>
-              Dirigí la implementación de nuevas funciones utilizando React, Redux, React Router y Hooks personalizados,
-              impulsando una arquitectura escalable y una gestión consistente del estado en toda la aplicación
+              Mejoré la calidad del código y reduje la deuda técnica mediante refactorizaciones estratégicas e implementación de análisis estático con SonarQube.
             </li>
             <li>
-              Mejoré la calidad del código y reduje la deuda técnica introduciendo análisis estático con SonarQube y
-              realizando refactorizaciones dirigidas para mejorar la mantenibilidad y la confiabilidad.
+              Contribuí al desarrollo de “spatial navigation” en Video.js, permitiendo
+              control-remoto mediante las teclas de flecha para navegar por los elementos interactivos del reproductor.
             </li>
             <li>
-              Contribuí al desarrollo de la funcionalidad de “spatial navigation” para Video.js, permitiendo control-remoto 
-              mediante las teclas de flecha para navegar por los elementos interactivos del reproductor, mejorando la usabilidad
-              en las plataformas de Smart TV.
-            </li>
-            <li>
-              Diseñé y mantuve ciertas pipelines de CI/CD mediante la creación de configuraciones de compilación de TeamCity
-              y apoyé a la migración de algunos procesos de compilación a Jenkins, mejorando la automatización y los flujos de
-              trabajo de lanzamiento.
+              Diseñé y di soporte a pipelines de CI/CD en TeamCity y apoyé en la migración de pipelines de TeamCity a
+              Jenkins.
             </li>
           </ul>
         </div>
 
-        <div class="mt-6">
+        <div class="mt-4">
           <div class="flex justify-between">
             <h3 class="font-semibold text-sm">Desarrollador Front-End - Mobilender</h3>
             <span class="text-sm text-gray-500">Dic 2018 – Oct 2019</span>
@@ -182,24 +198,25 @@
               en JavaScript e implementando algunas funciones backend en Python.
             </li>
             <li>
-              Dirigí el desarrollo de una plataforma de incorporación de becas, creando componentes web reutilizables con Vue.js.
+              Dirigí el desarrollo de una plataforma de incorporación de becas, creando componentes web reutilizables
+              con Vue.js.
             </li>
           </ul>
         </div>
 
-        <div class="mt-6">
+        <div class="mt-4">
           <div class="flex justify-between">
             <h3 class="font-semibold text-sm">Desarrollador Front-End - HAL 9000</h3>
             <span class="text-sm text-gray-500">Ene 2019 - Ago 2018</span>
           </div>
           <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
             <li>
-              Desarrollé y mejoré componentes web utilizando Polymer y Vue.js, contribuyendo a la creación de interfaces 
+              Desarrollé y mejoré componentes web utilizando Polymer y Vue.js, contribuyendo a la creación de interfaces
               de usuario dinámicas y atractivas.
             </li>
             <li>
-              Implementé diseños web responsivos utilizando CSS, Flexbox, Bootstrap y Skeleton.
-              Cumpliendo consistentemente plazos ajustados mientras garantizaba compatibilidad entre dispositivos.
+              Implementé diseños web responsivos utilizando CSS, Flexbox, Bootstrap y Skeleton garantizando
+              compatibilidad entre dispositivos y exploradores web.
             </li>
           </ul>
         </div>
