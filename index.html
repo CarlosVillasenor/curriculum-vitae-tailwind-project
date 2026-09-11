@@ -1,218 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carlos Villaseñor - CV</title>
-  <link rel="stylesheet" href="css/output.css">
-  <style>
-    @media print {
-      body {
-        print-color-adjust: exact;
-        -webkit-print-color-adjust: exact;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Villaseñor - CV</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <style>
+      @media print {
+        body {
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
       }
-    }
-  </style>
-</head>
+    </style>
+  </head>
 
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <div class="max-w-4xl mx-auto bg-gray-50 shadow-lg grid grid-cols-10 w-[210mm] h-[297mm]">
-
-    <!-- LEFT SIDEBAR -->
-    <aside class="col-span-4 text-white px-4 py-4 shadow-inner shadow-gray-950 bg-linear-to-br from-blue-950 to-blue-900">
-      <!-- Profile Picture and Name -->
-      <!-- <img src="src/img/profile.png" alt="Profile Picture"
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <div
+      class="max-w-4xl mx-auto bg-gray-50 shadow-lg grid grid-cols-10 w-[210mm] h-[297mm]"
+    >
+      <!-- LEFT SIDEBAR -->
+      <aside
+        class="col-span-4 text-white px-4 py-6 shadow-inner shadow-gray-950 bg-linear-to-br from-blue-950 to-blue-900"
+      >
+        <!-- Profile Picture and Name -->
+        <!-- <img src="src/img/profile.png" alt="Profile Picture"
         class="w-32 h-32 rounded-full object-cover mt-2 border-gray-200 border-3 mb-4 mx-auto" /> -->
-      <h1 class="text-2xl font-bold">Carlos Villaseñor</h1>
-      <p class="text-sm text-gray-300 mt-1">Ingeniero de Software - Frontend</p>
-
-      <!-- Contact -->
-      <section class="mt-6">
-        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6">
-          Contacto
-        </h2>
-        <ul class="mt-3 space-y-2 text-sm">
-          <li>✉️ carlosdeveloper9@gmail.com</li>
-          <li>🌐 <a href="https://carlosvillasenor.dev" class="underline">www.carlosvillasenor.dev</a></li>
-          <li>
-            <img src="src/img/in_logo.png" alt="🐙" class="w-4  h-4 inline mx-1">
-            <a href="https://www.linkedin.com/in/carlos-javier-villaseñor-castillo-6245a0173" class="underline">
-              www.linkedin.com/in/carlos-javier-villaseñor-castillo-6245a0173
-            </a>
-          </li>
-          <li>
-            <img src="src/img/git_logo.png" alt="🐙" class="w-4  h-4 inline mx-1">
-            <a href="https://github.com/CarlosVillasenor" class="underline">
-              https://github.com/CarlosVillasenor
-            </a>
-          </li>
-          <li>📞 +52 2227655947</li>
-          <li>📍 Puebla, Mexico</li>
-        </ul>
-      </section>
-
-      <!-- Skills -->
-      <section class="mt-6">
-        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6">
-          Habilidades
-        </h2>
-        <ul class="mt-3 space-y-1 text-sm">
-          <li>Lenguajes de Programación: </li>
-          <li>JavaScript (ES6+) / TypeScript / HTML5 / CSS3 / Python </li>
-          <li>Frontend:</li>
-          <li> React / Next.js </li>
-          <li>Backend:</li>
-          <li> Node.js / Better-SQLite3</li>
-          <li>Herramientas:</li>
-          <li>Git / Webpack / GitHub Copilot / Vite / npm / Jest / SASS / Tailwind / Docker</li>
-          <li>Prácticas:</li>
-          <li>Diseño Responsivo / Optimización del Rendimiento/ Accesibilidad </li>
-        </ul>
-      </section>
-
-      <!--Soft Skills-->
-      <section class="mt-6">
-        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6">
-          Habilidades blandas
-        </h2>
-        <ul class="mt-3 space-y-1 text-sm">
-          <li>Resolución de Problemas / Adaptabilidad </li>
-          <li>Aprendizaje Rápido / Resiliencia</li>
-          <li>Trabajo en Equipo</li>
-        </ul>
-      </section>
-
-      <!-- Languages -->
-      <section class="mt-6">
-        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6">
-          Idiomas
-        </h2>
-        <ul class="mt-3 space-y-1 text-sm">
-          <li>Español - Nativo</li>
-          <li>Inglés - Avanzado</li>
-        </ul>
-      </section>
-
-      <!-- Education -->
-      <section class="mt-6">
-        <h2 class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6">Educación</h2>
-        <div class="mt-3 flex justify-between text-sm">
-          <div>
-            <p class="font-semibold">Título universitario</p>
-            <p>Diseño de Interacción y Animación Digital en La Universidad Iberoamericana Puebla</p>
-          </div>
-          <span class="text-gray-400">2013</span>
-        </div>
-      </section>
-    </aside>
-
-    <!-- RIGHT CONTENT -->
-    <main class="col-span-6 px-4 py-4 ">
-
-      <!-- Profile -->
-      <section>
-        <h2 class="text-lg font-bold border-b pb-1">
-          Perfil
-        </h2>
-        <p class="mt-4 text-sm leading-relaxed text-gray-700">
-          Ingeniero de Software - Frontend con +7 años de experiencia trabajando en aplicaciones a gran escala, incluyendo
-          plataformas OTT para Smart TV. Especializado en React y arquitectura frontend escalable, con enfoque en
-          rendimiento, calidad de código y optimización de builds.
+        <h1 class="text-2xl font-bold">Carlos Villaseñor</h1>
+        <p class="text-md text-gray-300 mt-1">
+          Ingeniero Senior de Frontend | Fullstack e IA
         </p>
-      </section>
 
-      <!-- Experience -->
-      <section class="mt-4">
-        <h2 class="text-lg font-bold border-b pb-1">
-          Experiencia
-        </h2>
-
-        <div class="mt-4">
-          <div class="flex justify-between">
-            <h3 class="font-semibold text-sm">
-              Año sabático de desarrollo personal y profesional
-            </h3>
-            <span class="text-sm text-gray-500">Dic 2024 - Ene 2025</span>
-          </div>
-          <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
+        <!-- Contact -->
+        <section class="mt-6">
+          <h2
+            class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6"
+          >
+            Contacto
+          </h2>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li>✉️ carlosdeveloper9@gmail.com</li>
             <li>
-              Completé 4 cursos en tecnologías frontend modernas: GitHub Copilot, Tailwind CSS, TypeScript, React avanzado y Next.js.
+              🌐
+              <a href="https://carlosvillasenor.dev" class="underline"
+                >www.carlosvillasenor.dev</a
+              >
             </li>
             <li>
-              Desarrollé proyectos personales aplicando buenas prácticas de arquitectura en frontend.
+              <img
+                src="src/img/in_logo.png"
+                alt="🐙"
+                class="w-4 h-4 inline mx-1"
+              />
+              <a
+                href="https://www.linkedin.com/in/carlos-javier-villaseñor-castillo-6245a0173"
+                class="underline"
+              >
+                www.linkedin.com/in/carlos-javier-villaseñor-castillo-6245a0173
+              </a>
             </li>
             <li>
-              Fortalecí habilidades de autogestión, aprendizaje autónomo e inteligencia emocional.
+              <img
+                src="src/img/git_logo.png"
+                alt="🐙"
+                class="w-4 h-4 inline mx-1"
+              />
+              <a href="https://github.com/CarlosVillasenor" class="underline">
+                https://github.com/CarlosVillasenor
+              </a>
+            </li>
+            <li>📞 +52 2227655947</li>
+            <li>📍 Puebla, México</li>
+          </ul>
+        </section>
+
+        <!-- Skills -->
+        <section class="mt-6">
+          <h2
+            class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-2"
+          >
+            Habilidades
+          </h2>
+
+          <ul class="text-sm space-y-2">
+            <li>
+              <div class="font-bold">Frontend:</div>
+              <div>
+                React, Next.js, TypeScript, JavaScript (ES6+), Redux, React
+                Router, Tailwind CSS, SASS, HTML5, CSS3
+              </div>
+            </li>
+
+            <li>
+              <div class="font-bold">Backend:</div>
+              <div>Node.js, Express, MongoDB, SQLite</div>
+            </li>
+
+            <li>
+              <div class="font-bold">Testing:</div>
+              <div>Jest</div>
+            </li>
+
+            <li>
+              <div class="font-bold">Build &amp; CI/CD:</div>
+              <div>Webpack, Vite, TeamCity, Jenkins</div>
+            </li>
+
+            <li>
+              <div class="font-bold">Herramientas:</div>
+              <div>Git, Docker, npm, SonarQube, GitHub Copilot</div>
+            </li>
+
+            <li>
+              <div class="font-bold">Prácticas:</div>
+              <div>
+                Diseño Responsivo, Accesibilidad, Optimización del Rendimiento
+              </div>
+            </li>
+
+            <li>
+              <div class="font-bold">Lenguajes:</div>
+              <div>Javascript, TypeScript, Python</div>
             </li>
           </ul>
-        </div>
+        </section>
 
-        <div class="mt-4">
-          <div class="flex justify-between">
-            <h3 class="font-semibold text-sm">Ingeniero de Software - Brightcove</h3>
-            <span class="text-sm text-gray-500">Dic 2019 - Dic 2024</span>
+        <!--Soft Skills-->
+        <!-- <section class="mt-6">
+          <h2
+            class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6"
+          >
+            Habilidades blandas
+          </h2>
+          <ul class="mt-3 space-y-1 text-sm">
+            <li>Resolución de Problemas, Adaptabilidad</li>
+            <li>Aprendizaje Rápido, Resiliencia</li>
+            <li>Trabajo en Equipo</li>
+          </ul>
+        </section> -->
+
+        <!-- Languages -->
+        <section class="mt-6">
+          <h2
+            class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6"
+          >
+            Idiomas
+          </h2>
+          <ul class="mt-3 space-y-1 text-sm">
+            <li>Español - Nativo</li>
+            <li>Inglés - Avanzado</li>
+          </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="mt-6">
+          <h2
+            class="text-sm font-semibold tracking-widest text-gray-400 uppercase mt-6 mb-6"
+          >
+            Educación
+          </h2>
+          <div class="mt-3 flex justify-between text-sm">
+            <div>
+              <p>Diseño de Interacción y Animación Digital</p>
+              <p>Universidad Iberoamericana Puebla</p>
+            </div>
+            <!-- <span class="text-gray-400">2013</span> -->
+          </div>
+        </section>
+      </aside>
+
+      <!-- RIGHT CONTENT -->
+      <main class="col-span-6 px-4 py-6">
+        <!-- Profile -->
+        <section>
+          <h2 class="text-lg font-bold border-b pb-1">Perfil</h2>
+          <p class="mt-4 text-sm leading-relaxed text-gray-700">
+            Ingeniero de Software especializado en Frontend con +7 años de
+            experiencia desarrollando aplicaciones web y plataformas de
+            streaming a gran escala. Especializado en React, TypeScript y
+            arquitectura frontend escalable, con experiencia en optimización de
+            rendimiento, calidad de código y procesos de build.
+          </p>
+          <!-- <p>
+             He ampliado mi
+            experiencia hacia el desarrollo Fullstack, trabajando con Node.js,
+            Express, MongoDB y SQLite, y utilizo herramientas de IA para
+            acelerar el desarrollo, explorar soluciones y construir aplicaciones
+            de extremo a extremo.
+          </p> -->
+        </section>
+
+        <!-- Experience -->
+        <section class="mt-4">
+          <h2 class="text-lg font-bold border-b pb-1">Experiencia</h2>
+
+          <div class="mt-4">
+            <div class="flex justify-between">
+              <h3 class="font-semibold text-sm">
+                Desarrollo Profesional Independiente
+              </h3>
+              <span class="text-sm text-gray-500">Jul 2025 - Presente</span>
+            </div>
+            <ul
+              class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1"
+            >
+              <li>
+                Desarrollé aplicaciones Fullstack utilizando React, Next.js,
+                TypeScript, Node.js, Express y MongoDB, diseñando e
+                implementando APIs REST y arquitecturas frontend/backend.
+              </li>
+              <li>
+                Utilicé herramientas de IA para acelerar el desarrollo de
+                funcionalidades, desde la exploración y validación de soluciones
+                hasta la generación, refactorización y documentación de código a
+                lo largo de todo el ciclo de desarrollo.
+              </li>
+            </ul>
           </div>
 
-          <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
-            <!-- (Achievement or responsibility with impact.) -->
-            <li>
-              Implementé funcionalidades y optimicé el proceso de build en la plataforma OTT Beacon, reduciendo en un 20% el tamaño del bundle y mejorando los tiempos de compilación de 20 a menos de 5 minutos.
-            </li>
-            <li>
-              Lideré el desarrollo de nuevas funcionalidades en React, Redux, React Router y Hooks personalizados,
-              impulsando una arquitectura escalable.
-            </li>
-            <li>
-              Mejoré la calidad del código y reduje la deuda técnica mediante refactorizaciones estratégicas e implementación de análisis estático con SonarQube.
-            </li>
-            <li>
-              Contribuí al desarrollo de “spatial navigation” en Video.js, permitiendo
-              control-remoto mediante las teclas de flecha para navegar por los elementos interactivos del reproductor.
-            </li>
-            <li>
-              Diseñé y di soporte a pipelines de CI/CD en TeamCity y apoyé en la migración de pipelines de TeamCity a
-              Jenkins.
-            </li>
-          </ul>
-        </div>
+          <div class="mt-4">
+            <div class="flex justify-between">
+              <h3 class="font-semibold text-sm">
+                Ingeniero de Software - Brightcove
+              </h3>
+              <span class="text-sm text-gray-500">Dic 2019 - Jun 2025</span>
+            </div>
 
-        <div class="mt-4">
-          <div class="flex justify-between">
-            <h3 class="font-semibold text-sm">Desarrollador Front-End - Mobilender</h3>
-            <span class="text-sm text-gray-500">Dic 2018 – Oct 2019</span>
+            <ul
+              class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1"
+            >
+              <!-- (Achievement or responsibility with impact.) -->
+              <li>
+                Implementé funcionalidades y optimicé el proceso de build en la
+                plataforma OTT Beacon, reduciendo en un 20% el tamaño del bundle
+                y mejorando los tiempos de compilación de 20 a menos de 5
+                minutos.
+              </li>
+              <li>
+                Lideré el desarrollo de nuevas funcionalidades en React, Redux,
+                React Router y Hooks personalizados, impulsando una arquitectura
+                escalable.
+              </li>
+              <li>
+                Mejoré la calidad del código y reduje la deuda técnica mediante
+                refactorizaciones estratégicas e implementación de análisis
+                estático con SonarQube.
+              </li>
+              <li>
+                Contribuí al desarrollo de “spatial navigation” en Video.js,
+                permitiendo el control remoto mediante las teclas de flecha. para
+                navegar por los elementos interactivos del reproductor.
+              </li>
+              <li>
+                Diseñé y di soporte a pipelines de CI/CD en TeamCity y apoyé en
+                la migración de pipelines de TeamCity a Jenkins.
+              </li>
+            </ul>
           </div>
-          <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
-            <li>
-              Mantuve y mejoré aplicaciones web fintech construidas con Django, contribuyendo al desarrollo frontend
-              en JavaScript e implementando algunas funciones backend en Python.
-            </li>
-            <li>
-              Dirigí el desarrollo de una plataforma de incorporación de becas, creando componentes web reutilizables
-              con Vue.js.
-            </li>
-          </ul>
-        </div>
 
-        <div class="mt-4">
-          <div class="flex justify-between">
-            <h3 class="font-semibold text-sm">Desarrollador Front-End - HAL 9000</h3>
-            <span class="text-sm text-gray-500">Ene 2017 - Sep 2018</span>
+          <div class="mt-4">
+            <div class="flex justify-between">
+              <h3 class="font-semibold text-sm">
+                Desarrollador Front-End - Mobilender
+              </h3>
+              <span class="text-sm text-gray-500">Dic 2018 – Oct 2019</span>
+            </div>
+            <ul
+              class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1"
+            >
+              <li>
+                Mantuve y mejoré aplicaciones web fintech construidas con
+                Django, contribuyendo al desarrollo frontend en JavaScript e
+                implementando algunas funciones backend en Python.
+              </li>
+              <li>
+                Dirigí el desarrollo de una plataforma de incorporación de
+                becas, creando componentes web reutilizables con Vue.js.
+              </li>
+            </ul>
           </div>
-          <ul class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1">
-            <li>
-              Desarrollé y mejoré componentes web utilizando Polymer y Vue.js, contribuyendo a la creación de interfaces
-              de usuario dinámicas y atractivas.
-            </li>
-            <li>
-              Implementé diseños web responsivos utilizando CSS, Flexbox, Bootstrap y Skeleton garantizando
-              compatibilidad entre dispositivos y exploradores web.
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-  </div>
-</body>
 
+          <div class="mt-4">
+            <div class="flex justify-between">
+              <h3 class="font-semibold text-sm">
+                Desarrollador Front-End - HAL 9000
+              </h3>
+              <span class="text-sm text-gray-500">Ene 2017 - Sep 2018</span>
+            </div>
+            <ul
+              class="list-disc list-inside mt-2 text-sm text-gray-700 space-y-1"
+            >
+              <li>
+                Desarrollé y mejoré componentes web utilizando Polymer y Vue.js,
+                contribuyendo a la creación de interfaces de usuario dinámicas y
+                atractivas.
+              </li>
+              <li>
+                Implementé diseños web responsivos utilizando CSS, Flexbox,
+                Bootstrap y Skeleton.
+              </li>
+              <!-- <li>
+                Garantizando compatibilidad entre
+                dispositivos y exploradores web.
+              </li> -->
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
